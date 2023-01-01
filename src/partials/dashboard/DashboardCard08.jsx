@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import LineChart from '../../charts/LineChart02';
+
 import axios from 'axios'
 // Import utilities
 
