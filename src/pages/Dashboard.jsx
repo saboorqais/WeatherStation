@@ -6,7 +6,6 @@ import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 
 import DashboardCard08 from '../partials/dashboard/DashboardCard08';
 
-import Banner from '../partials/Banner';
 
 function Dashboard() {
 
@@ -14,7 +13,6 @@ function Dashboard() {
 
   return (
     <div className="flex h-screen overflow-hidden">
-
       {/* Sidebar */}
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
@@ -54,7 +52,7 @@ function Dashboard() {
           </div>
         </main>
 
-        <Banner />
+     
 
       </div>
     </div>
